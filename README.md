@@ -18,6 +18,9 @@
 
 - **Recognition and Rewards:** As a token of appreciation for your commitment, <span style="color:red;">Blood Drops</span> offers a rewards program that recognizes and celebrates your lifesaving contributions.
 
+Click [here](https://drive.google.com/file/d/12rYbBK4u-Uu_WtPX9b55hWXYNDy3Pp30/view?usp=drive_link) to view the sample page.
+
+
 ## Getting Started
 
 Ready to join the movement? Here's how you can get started with <span style="color:red;">Blood Drops</span>:
