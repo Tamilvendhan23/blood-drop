@@ -1,7 +1,7 @@
 # Blood Drops: Revolutionizing Blood Donation
 
 <p align="center">
-  <img src="https://storyset.com/illustration/blood-donation/bro#FF0000FF&hide=&hide=complete">
+  <img src="https://storyset.com/illustration/blood-donation/pana">
 </p>
 
 
