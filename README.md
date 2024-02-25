@@ -1,5 +1,8 @@
 # Blood Drops: Revolutionizing Blood Donation
 
+<p align="center">
+  <img src="https://storyset.com/illustration/blood-donation/bro#FF0000FF&hide=&hide=complete">
+</p>
 
 
 ## Welcome to <span style="color:red;">Blood Drops!</span>
