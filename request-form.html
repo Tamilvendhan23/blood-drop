@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Nice Select CSS -->
+		<link rel="stylesheet" href="css/nice-select.css">
+		<!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- icofont CSS -->
+        <link rel="stylesheet" href="css/icofont.css">
+		<!-- Slicknav -->
+		<link rel="stylesheet" href="css/slicknav.min.css">
+		<!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="css/owl-carousel.css">
+		<!-- Datepicker CSS -->
+		<link rel="stylesheet" href="css/datepicker.css">
+		<!-- Animate CSS -->
+        <link rel="stylesheet" href="css/animate.min.css">
+		<!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		
+		<!-- Medipro CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Drops - Blood Transfusion Request</title>
+    <style>
+	
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        body {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            min-height: 100vh;
+        }
+
+        .containerr {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            max-width: 1200px; /* Adjust max-width as needed */
+        }
+
+        .form-containerr {
+            flex: 1;
+            background-color: #1A76D1;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(172, 61, 61, 0.1);
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .reading-contentt {
+            flex: 1;
+            padding: 40px;
+            color: black;
+            background-color: white;
+            border-radius: 30px;
+            border: 2px solid #1A76D1;
+            margin-left: 20px;
+        }
+
+        h4 {
+            text-align: center;
+            color: red;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: black;
+        }
+
+        input[type="text"],
+        select,
+        input[type="date"],
+        input[type="time"] {
+            width: calc(100% - 18px); /* Adjust width as needed */
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #b71c1c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+		.custom-gap li {
+            margin-bottom: 15px; /* Adjust this value to increase or decrease the gap */
+        }
+        input[type="submit"]:hover {
+            background-color: #800000;
+        }
+
+        ul {
+            padding-left: 20px; /* Add left padding for bullet points */
+        }
+
+        li {
+            margin-bottom: 10px; /* Add margin bottom between each bullet point */
+        }
+
+        @media screen and (max-width: 768px) {
+            .containerr {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .form-containerr {
+                width: 90%;
+            }
+
+            .reading-contentt{
+                width: 90%;
+                margin-top: 20px; /* Add margin-top for separation */
+            }
+        }
+    </style>
+</head>
+
+<body>
+<header class="header" >
+			
+			<!-- Header Inner -->
+			<div class="header-inner">
+				<div class="containerr">
+					<div class="inner">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-12">
+								<!-- Start Logo -->
+								<div class="logo">
+									<a href="index.html"><img src="img/logo.png" alt="#"></a>
+								</div>
+								<!-- End Logo -->
+								<!-- Mobile Nav -->
+								<div class="mobile-nav"></div>
+								<!-- End Mobile Nav -->
+							</div>
+							<div class="col-lg-7 col-md-9 col-12">
+								<!-- Main Menu -->
+								<div class="main-menu">
+									<nav class="navigation">
+										<ul class="nav menu">
+											<li class="active"><a href="index.html">Home </a>
+												<!--<ul class="dropdown">
+													<li><a href="index.html">Home Page 1</a></li>
+												</ul>-->
+											</li>
+											<li><a href="facts.html">Facts </a></li>
+											<li><a href="services.html">Services </a></li>
+											<li><a href="table.html">Blood Banks </i></a>
+												
+											</li>
+											<!--<li><a href="#">Blogs <i class="icofont-rounded-down"></i></a>
+												<ul class="dropdown">
+													<li><a href="blog-single.html">Blog Details</a></li>
+												</ul>
+											</li>-->
+											<li><a href="contact.html">Contact Us</a></li>
+										</ul>
+									</nav>
+								</div>
+								<!--/ End Main Menu -->
+							</div>
+							<div class="col-lg-2 col-12">
+								<div class="get-quote">
+									<a href="index.html"  class="btn">Go To Home Page</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+		<!-- End Header Area -->
+	<br><br>	
+<div class="containerr">
+    <div class="form-containerr">
+		<h4 >BLOOD DROPS </h4>
+        <h4 style="color: white;" >Blood Transfusion Request Form</h4>
+		
+        <form method="post" action="https://script.google.com/macros/s/AKfycbxM3DYa-b4i16bOO-YAw7JwVade5rMThSc4XAeOtXgZxCpZ3_7IY-CkLElBFp5S20wizQ/exec" name="blood-transfusion-request-form">
+            
+            <label for="hospital_name">Email ID *</label>
+            <input type="text" id="hospital_name" name="MAIL ID" required placeholder="Enter Your Mail ID">
+			
+			<label for="name">Name *</label>
+            <input type="text" id="name" name="NAME" required placeholder="Enter Name">
+
+            <label for="age">Age *</label>
+            <input type="text" id="age" name="AGE" required placeholder="Enter Age">
+
+            <label for="gender">Gender *</label>
+            <select id="gender" name="GENDER" required>
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+         	
+
+            <label for="blood_group">Blood Group *</label>
+            <select id="blood_group" name="BLOOD GROUP" required>
+			<option value="" disabled selected>Select Blood Group</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+
+           
+
+            <label for="history_transfusion">History of Previous Transfusion *</label>
+            <select id="history_transfusion" name="HISTORY OF PREVIOUS TRANSFUSION" required>
+                <option value="" disabled selected>Select Option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+              
+           
+            <label for="number_units_required">Number of Units Required *</label>
+			<select id="history_transfusion" name="HISTORY OF PREVIOUS TRANSFUSION" required>
+			 <option value="" disabled selected>Select Units</option>
+            <option value="yes">01</option>
+			<option value="yes">02</option>
+			<option value="yes">03</option>   </select>
+
+            <label for="needed_date">Needed Date *</label>
+            <input type="date" id="needed_date" name="NEEDED DATE" required>
+
+            <label for="needed_time">Needed Time *</label>
+            <input type="time" id="needed_time" name="TIME" required>
+
+            <label for="referring_doctor">Referring Doctor *</label>
+            <input type="text" id="referring_doctor" name="NAME OF THE REFERRING DOCTOR" required placeholder="Enter Referring Doctor's Name">
+
+            <label for="contact_number">Contact Number *</label>
+            <input type="text" id="contact_number" name="CONTACT NUMBER" required placeholder="Enter Contact Number">
+
+
+           <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+    <div class="reading-contentt">
+        <h4>Blood Donation Facts:</h4>
+         <ul class="custom-gap">
+            <li>One donation can save up to three lives.</li>
+            <li>Blood makes up about 7% of your body's weight.</li>
+            <li>The most commonly requested blood type is O positive.</li>
+            <li>Platelets, a component of blood, are crucial for cancer patients undergoing chemotherapy.</li>
+            <li>Blood donation does not affect the donor's ability to perform normal activities.</li>
+            <li>Donated blood is used for various medical treatments, including surgeries, trauma care, and chronic illnesses.</li>
+            <li>Blood cannot be manufactured artificially, so donations are essential for maintaining an adequate blood supply.</li>
+            <li>Platelets are small cell fragments essential for blood clotting and preventing excessive bleeding.</li>
+            <li>Plasma, the liquid component of blood, contains essential proteins and antibodies vital for immunity and clotting.</li>
+        </ul><br>
+        <h4>Who Can Donate Blood?</h4> 
+        
+         <ul class="custom-gap">
+            <li>You must be in good health.</li>
+            <li>You must be at least 16 years old (in most countries) and weigh at least 110 pounds.</li>
+           
+            <li>Temporary deferrals may be in place for individuals who have recently received tattoos, piercings, or vaccinations.</li>
+            <li>It's essential to consult with healthcare professionals or blood donation centers for specific eligibility guidelines.</li>
+            <li>Individuals with certain medical conditions, such as HIV/AIDS, hepatitis, or certain types of cancer, may be permanently deferred from donating blood.</li>
+            <li>Pregnant women may be deferred from donation due to potential risks to the mother and fetus.</li>
+              </ul>
+       
+    </div>
+</div>
+<br><br>
+<footer id="footer" style="background-color: #1a76d1; padding: 20px; text-align: center; width: 100%; margin: 0;">
+    <div style="margin-bottom: 20px;">
+        <h2 style="font-size: 20px; margin-bottom: 10px; color: #fff;">About Blood Donation</h2>
+        <p style="font-size: 16px; color: #fff;">We are dedicated to facilitating blood donation to save lives. Join us in our mission today!</p>
+    </div>
+    <div>
+        <p style="font-size: 14px; margin-top: 20px; color: #fff;">© Copyright 2024 | All Rights Reserved by <a href="index.html" target="_blank" style="color: red; text-decoration: none;">Free Birds</a></p>
+    </div>
+</footer>
+<script>const scriptURL = 'https://script.google.com/macros/s/AKfycbxM3DYa-b4i16bOO-YAw7JwVade5rMThSc4XAeOtXgZxCpZ3_7IY-CkLElBFp5S20wizQ/exec'
+
+const form = document.forms['blood-transfusion-request-form']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! your form is submitted successfully." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+}
+)
+</script>
+</body>
+</html>
